@@ -6,9 +6,747 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">		
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-    <link rel="stylesheet" href="../Common.css">
+    <link rel="stylesheet" href="./LandingPage.css">
 </head>
     <body>
+        <!-- header -->
+        <div class="header-container">
+            <header class="header">
+                <h2 class="header-title">
+                    Blithe
+                </h2>
+                <div class="header-icon-container">
+                    <div class="header-icon-sub-container">
+                        <button class="header-btn">
+                            <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                                class="icon-btn-img" alt="icon-btn-img" />
+                        </button>
+                        <button class="header-btn">
+                            <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                                class="icon-btn-img" alt="icon-btn-img" />
+                        </button>
+                        <div class="badge-container">
+                            <img class="avatar xs"
+                                src="https://image.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg"
+                                alt="user">
+                        </div>
+                    </div>
+                    <div class="vl"></div>
+                    <div class="header-cart-container badge-container">
+                        <div class="badge-container">
+                            <img class="sm" src="../Assets/Icons/icons8-shopping-bag-60.png" alt="icon" />
+                            <span class="avatar-badge avatar-badge-offline">5</span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="col-12 category-container">
+            <div class="category-item">
+                <img class="category sm"
+                    src="https://healthicons.org/icons/svg/filled/blood/blood_bag.svg"
+                    alt="blood" />
+                <p class='text-sm'>Blood</p>
+            </div>
+            <div class="category-item">
+                <img class="category sm"
+                    src="https://healthicons.org/icons/svg/outline/conditions/overweight.svg"
+                    alt="overweight" />
+                    <p class='text-sm'>Obesity</p>
+            </div>
+            <div class="category-item">
+                <img class="category sm"
+                    src="https://healthicons.org/icons/svg/filled/conditions/allergies.svg"
+                    alt="skin" />
+                <p class='text-sm'>Skin</p>
+            </div>
+            <div class="category-item">
+                <img class="category sm"
+                    src="https://healthicons.org/icons/svg/filled/conditions/back_pain.svg"
+                    alt="adults" />
+                <p class='text-sm'>Elderly</p>
+            </div>
+            <div class="category-item">
+                <img class="category sm"
+                    src="https://healthicons.org/icons/svg/filled/people/woman.svg"
+                    alt="Woman" />
+                    <p class='text-sm'>Woman</p>
+            </div>
+            <div class="category-item">
+                <img class="category sm"
+                    src="https://healthicons.org/icons/svg/filled/people/baby_0203_alt.svg"
+                    alt="child" />
+                <p class='text-sm'>NewBorn</p>
+            </div>
+            <div class="category-item">
+                <img class="category sm"
+                    src="https://healthicons.org/icons/svg/filled/people/girl_1015y.svg"
+                    alt="kids" />
+                <p class='text-sm'>Kids</p>
+            </div>
+            <div class="category-item">
+                <img class="category sm"
+                    src="https://healthicons.org/icons/svg/filled/devices/defibrilator.svg"
+                    alt="heart" />
+                <p class='text-sm'>Heart</p>
+            </div>
+        </div>
+
+        <!-- corousel -->
+        <div id="slider" class="slider">
+            <div class="sliderImg">
+                <div class="mySlides">
+                    <img src="../Assets/Images/Blithe1.PNG" alt="...">
+                    <div class="carousel-caption">
+                    <h5>BEST VENUE & decors</h5>
+                    <p>Get the best venue at an economical price.</p>
+                    </div>
+                </div>
+                <div class="mySlides">
+                    <img src="../Assets/Images/Blithe2.PNG" alt="...">
+                    <div class="carousel-caption">
+                    <h5>Wedding photography</h5>
+                    <p>Pre wedding, post wedding and Wedding phototgraphy</p>
+                    </div>
+                </div>
+                <div class="mySlides">
+                    <img src="../Assets/Images/Blithe-3.PNG" alt="...">
+                    <div class="carousel-caption">
+                    <h5>BEST ARRANGEMENTS</h5>
+                    <p>Best arrangements for all functions like haldi, mehendi,phera etc.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-sm btn-icon prev-btn" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="btn btn-sm btn-icon next-btn" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+
+        <!-- How site works steps -->
+        <div class="steps-container">
+            <div class="step-item">
+                <p class="step">1</p>
+                <p class="text-lg step-text">Upload the Doctor's Prescription and place order</p>
+            </div>
+            <div class="step-item">
+                <p class="step">2</p>
+                <p class="text-lg step-text">Apply coupons or choose emergency delivery</p>
+            </div>
+            <div class="step-item">
+                <p class="step">3</p>
+                <p class="text-lg step-text">Get the Products delivered at your home</p>
+            </div>
+        </div>
+
+        <p class="heading-md heading-name">Featured Products</p>
+        <!-- featured products -->
+        <div id="featured-prdcts" class="col-12 flex-container-row featured-prdcts">
+            <div class="card-container card-shadow">
+                <img src="https://picsum.photos/id/10/367/267" class="card-img" alt="card-img"></img>
+                <span class="badge badge-new  text-md">New</span>
+                <div class="price-div">
+                    <span class="price-lbl price-wrong">5% off</span>
+                    <div class="star-rating">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <span class="price-lbl price-right">$15</span>
+                </div>
+                <h4>Card Title</h4>
+                <p>Card description is here.</p>
+                <div class="flex-content">
+                    <button class="card-btn card-btn-text">Add to cart</button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                </div>
+            </div>
+            <div class="card-container card-shadow">
+                <img src="https://picsum.photos/id/10/367/267" class="card-img" alt="card-img"></img>
+                <span class="badge badge-new  text-md">New</span>
+                <div class="price-div">
+                    <span class="price-lbl price-wrong">5% off</span>
+                    <div class="star-rating">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <span class="price-lbl price-right">$15</span>
+                </div>
+                <h4>Card Title</h4>
+                <p>Card description is here.</p>
+                <div class="flex-content">
+                    <button class="card-btn card-btn-text">Add to cart</button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                </div>
+            </div>
+            <div class="card-container card-shadow">
+                <img src="https://picsum.photos/id/10/367/267" class="card-img" alt="card-img"></img>
+                <span class="badge badge-new text-md">New</span>
+                <div class="price-div">
+                    <span class="price-lbl price-wrong">5% off</span>
+                    <div class="star-rating">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <span class="price-lbl price-right">$15</span>
+                </div>
+                <h4>Card Title</h4>
+                <p>Card description is here.</p>
+                <div class="flex-content">
+                    <button class="card-btn card-btn-text">Add to cart</button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                </div>
+            </div>
+            <div class="card-container card-shadow">
+                <img src="https://picsum.photos/id/10/367/267" class="card-img" alt="card-img"></img>
+                <span class="badge badge-new text-md">New</span>
+                <div class="price-div">
+                    <span class="price-lbl price-wrong">5% off</span>
+                    <div class="star-rating">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <span class="price-lbl price-right">$15</span>
+                </div>
+                <h4>Card Title</h4>
+                <p>Card description is here.</p>
+                <div class="flex-content">
+                    <button class="card-btn card-btn-text">Add to cart</button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                </div>
+            </div>
+            <div class="card-container card-shadow">
+                <img src="https://picsum.photos/id/10/367/267" class="card-img" alt="card-img"></img>
+                <span class="badge badge-new text-md">New</span>
+                <div class="price-div">
+                    <span class="price-lbl price-wrong">5% off</span>
+                    <div class="star-rating">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <span class="price-lbl price-right">$15</span>
+                </div>
+                <h4>Card Title</h4>
+                <p>Card description is here.</p>
+                <div class="flex-content">
+                    <button class="card-btn card-btn-text">Add to cart</button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                </div>
+            </div>
+            <div class="card-container card-shadow">
+                <img src="https://picsum.photos/id/10/367/267" class="card-img" alt="card-img"></img>
+                <span class="badge badge-new text-md">New</span>
+                <div class="price-div">
+                    <span class="price-lbl price-wrong">5% off</span>
+                    <div class="star-rating">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <span class="price-lbl price-right">$15</span>
+                </div>
+                <h4>Card Title</h4>
+                <p>Card description is here.</p>
+                <div class="flex-content">
+                    <button class="card-btn card-btn-text">Add to cart</button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                </div>
+            </div>
+            <div class="card-container card-shadow">
+                <img src="https://picsum.photos/id/10/367/267" class="card-img" alt="card-img"></img>
+                <span class="badge badge-new text-md">New</span>
+                <div class="price-div">
+                    <span class="price-lbl price-wrong">5% off</span>
+                    <div class="star-rating">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <span class="price-lbl price-right">$15</span>
+                </div>
+                <h4>Card Title</h4>
+                <p>Card description is here.</p>
+                <div class="flex-content">
+                    <button class="card-btn card-btn-text  text-md">Add to cart</button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                </div>
+            </div>
+            <div class="card-container card-shadow">
+                <img src="https://picsum.photos/id/10/367/267" class="card-img" alt="card-img"></img>
+                <span class="badge badge-new text-md">New</span>
+                <div class="price-div">
+                    <span class="price-lbl price-wrong">5% off</span>
+                    <div class="star-rating">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <span class="price-lbl price-right">$15</span>
+                </div>
+                <h4>Card Title</h4>
+                <p>Card description is here.</p>
+                <div class="flex-content">
+                    <button class="card-btn card-btn-text">Add to cart</button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                </div>
+            </div>
+            <div class="card-container card-shadow">
+                <img src="https://picsum.photos/id/10/367/267" class="card-img" alt="card-img"></img>
+                <span class="badge badge-new text-md">New</span>
+                <div class="price-div">
+                    <span class="price-lbl price-wrong">5% off</span>
+                    <div class="star-rating">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <span class="price-lbl price-right">$15</span>
+                </div>
+                <h4>Card Title</h4>
+                <p>Card description is here.</p>
+                <div class="flex-content">
+                    <button class="card-btn card-btn-text">Add to cart</button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Blithe-plus-banner -->
+        <div class="Blithe-plus-banner">
+            <div class="dis-banner">
+                <p class="heading-lg"><strong>BLITHE</strong><span class="text-md">Plus</span></p>
+                <p class="heading-md banner-text">Save flat 5% extra & enjoy free delivery With <span class="text-md">PLUS</span> membership</p>
+                <div class="banner-img">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/b20b0932.png" alt="banner-img"/>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deals of the day -->
+        <p class="heading-md heading-name">Deals Of the Day</p>
+        <div id="deals" class="col-12 flex-container-row deals-prdcts">
+            <div class="card-container card-shadow">
+                <img src="https://picsum.photos/id/10/367/267" class="card-img" alt="card-img"></img>
+                <span class="badge badge-new  text-md">New</span>
+                <div class="price-div">
+                    <span class="price-lbl price-wrong">5% off</span>
+                    <div class="star-rating">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <span class="price-lbl price-right">$15</span>
+                </div>
+                <h4>Card Title</h4>
+                <p>Card description is here.</p>
+                <div class="flex-content">
+                    <button class="card-btn card-btn-text">Add to cart</button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                </div>
+            </div>
+            <div class="card-container card-shadow">
+                <img src="https://picsum.photos/id/10/367/267" class="card-img" alt="card-img"></img>
+                <span class="badge badge-new  text-md">New</span>
+                <div class="price-div">
+                    <span class="price-lbl price-wrong">5% off</span>
+                    <div class="star-rating">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <span class="price-lbl price-right">$15</span>
+                </div>
+                <h4>Card Title</h4>
+                <p>Card description is here.</p>
+                <div class="flex-content">
+                    <button class="card-btn card-btn-text">Add to cart</button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                </div>
+            </div>
+            <div class="card-container card-shadow">
+                <img src="https://picsum.photos/id/10/367/267" class="card-img" alt="card-img"></img>
+                <span class="badge badge-new text-md">New</span>
+                <div class="price-div">
+                    <span class="price-lbl price-wrong">5% off</span>
+                    <div class="star-rating">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <span class="price-lbl price-right">$15</span>
+                </div>
+                <h4>Card Title</h4>
+                <p>Card description is here.</p>
+                <div class="flex-content">
+                    <button class="card-btn card-btn-text">Add to cart</button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                </div>
+            </div>
+            <div class="card-container card-shadow">
+                <img src="https://picsum.photos/id/10/367/267" class="card-img" alt="card-img"></img>
+                <span class="badge badge-new text-md">New</span>
+                <div class="price-div">
+                    <span class="price-lbl price-wrong">5% off</span>
+                    <div class="star-rating">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <span class="price-lbl price-right">$15</span>
+                </div>
+                <h4>Card Title</h4>
+                <p>Card description is here.</p>
+                <div class="flex-content">
+                    <button class="card-btn card-btn-text">Add to cart</button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                </div>
+            </div>
+            <div class="card-container card-shadow">
+                <img src="https://picsum.photos/id/10/367/267" class="card-img" alt="card-img"></img>
+                <span class="badge badge-new text-md">New</span>
+                <div class="price-div">
+                    <span class="price-lbl price-wrong">5% off</span>
+                    <div class="star-rating">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <span class="price-lbl price-right">$15</span>
+                </div>
+                <h4>Card Title</h4>
+                <p>Card description is here.</p>
+                <div class="flex-content">
+                    <button class="card-btn card-btn-text">Add to cart</button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                </div>
+            </div>
+            <div class="card-container card-shadow">
+                <img src="https://picsum.photos/id/10/367/267" class="card-img" alt="card-img"></img>
+                <span class="badge badge-new text-md">New</span>
+                <div class="price-div">
+                    <span class="price-lbl price-wrong">5% off</span>
+                    <div class="star-rating">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <span class="price-lbl price-right">$15</span>
+                </div>
+                <h4>Card Title</h4>
+                <p>Card description is here.</p>
+                <div class="flex-content">
+                    <button class="card-btn card-btn-text">Add to cart</button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                </div>
+            </div>
+            <div class="card-container card-shadow">
+                <img src="https://picsum.photos/id/10/367/267" class="card-img" alt="card-img"></img>
+                <span class="badge badge-new text-md">New</span>
+                <div class="price-div">
+                    <span class="price-lbl price-wrong">5% off</span>
+                    <div class="star-rating">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <span class="price-lbl price-right">$15</span>
+                </div>
+                <h4>Card Title</h4>
+                <p>Card description is here.</p>
+                <div class="flex-content">
+                    <button class="card-btn card-btn-text  text-md">Add to cart</button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                </div>
+            </div>
+            <div class="card-container card-shadow">
+                <img src="https://picsum.photos/id/10/367/267" class="card-img" alt="card-img"></img>
+                <span class="badge badge-new text-md">New</span>
+                <div class="price-div">
+                    <span class="price-lbl price-wrong">5% off</span>
+                    <div class="star-rating">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <span class="price-lbl price-right">$15</span>
+                </div>
+                <h4>Card Title</h4>
+                <p>Card description is here.</p>
+                <div class="flex-content">
+                    <button class="card-btn card-btn-text">Add to cart</button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                </div>
+            </div>
+            <div class="card-container card-shadow">
+                <img src="https://picsum.photos/id/10/367/267" class="card-img" alt="card-img"></img>
+                <span class="badge badge-new text-md">New</span>
+                <div class="price-div">
+                    <span class="price-lbl price-wrong">5% off</span>
+                    <div class="star-rating">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <span class="price-lbl price-right">$15</span>
+                </div>
+                <h4>Card Title</h4>
+                <p>Card description is here.</p>
+                <div class="flex-content">
+                    <button class="card-btn card-btn-text">Add to cart</button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <button class="card-btn">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/menu-2.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Testimonials -->
         
+        <section id="Testimonials">
+            <div class="col-12 flex-container-row reviews-container">
+                <p class="heading-md heading-name">Reviews & Ratings</p>
+                <div class="col-12 flex-container-row reviews-row">
+                    <div class="col-4 text-center">
+                        <div class="profile">
+                            <img src="https://image.shutterstock.com/image-photo/closeup-photo-young-macho-business-260nw-1683486055.jpg" class="user">
+                                <blockquote class="text-md">
+                                “This has been a major difference from the start of our journey to selling directly from our store and has reduced our reliance on shopping channels. Customer feedback creates that ‘social-proof’ trust that encourages other visitors to our store to buy.”
+                                </blockquote>
+                                <p class="heading-md profile-name">Mr Ashish Khandelwal</p>
+                            </img>
+                        </div>
+                    </div>
+    
+                    <!--2nd column-->
+                    <div class="col-4 text-center">
+                        <div class="profile">
+                            <img src="https://image.shutterstock.com/image-photo/closeup-photo-young-macho-business-260nw-1683486055.jpg" class="user">
+                                <blockquote class="text-md">
+                                “This has been a major difference from the start of our journey to selling directly from our store and has reduced our reliance on shopping channels. Customer feedback creates that ‘social-proof’ trust that encourages other visitors to our store to buy.”
+                                </blockquote>
+                                <p class="heading-md profile-name">Mr Ashish Khandelwal</p>
+                            </img>
+                        </div>
+                    </div>
+    
+    
+                    <!--3rd column-->
+                    <div class="col-4 text-center">
+                        <div class="profile">
+                            <img src="https://image.shutterstock.com/image-photo/closeup-photo-young-macho-business-260nw-1683486055.jpg" class="user">
+                                <blockquote class="text-md">
+                                “This has been a major difference from the start of our journey to selling directly from our store and has reduced our reliance on shopping channels. Customer feedback creates that ‘social-proof’ trust that encourages other visitors to our store to buy.”
+                                </blockquote>
+                                <p class="heading-md profile-name">Mr Ashish Khandelwal</p>
+                            </img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---footer- -->
+        <section id="footer">
+            <div class="col-12 flex-container-row reviews-row">
+                <div class="col-4">
+                    <p class="text-lg">Company</p>
+                        <li>About Us</li>
+                        <li>Careers</li>
+                        <li>Blog</li>
+                        <li>Partner with Blithe</li>
+                        <li>Sell at Blithe</li>
+                </div>
+                <div class="col-4">
+                    <p class="text-lg">Featured Categories</p>
+                    <ul>
+                        <li>Covid Essentials</li>
+                        <li>Healthcare Devices</li>
+                        <li>Health Food and Drinks</li>
+                        <li>Personal Care</li>
+                        <li>Ayurvedic Care</li>
+                        <li>Mother and Baby Care</li>
+                        <li>Accessories And Wearables</li>
+                        <li>Skin Care</li>
+                        <li>Diabetic Care</li>
+                        <li>Health Condition</li>
+                        <li>Sexual Wellness</li>
+                        <li>Home Care</li>
+                        <li>Fitness & Supplements</li>
+                        <li>Elderly Care</li>
+                        <li>Surgicals and Dressings</li>
+                        <li>Pet Care</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container text-center">
+                <p class='text-sm'>Made by KARISHMA GAJRIA AGARWAL</p>                
+            </div>
+        </section>
+        
+        <script type="text/javascript" src="./LandingPage.js"></script>
     </body>
 </html>
