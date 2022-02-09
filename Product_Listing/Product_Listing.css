@@ -156,7 +156,7 @@
 }
 
 .chip-word{
-    background-color: var(--secondary-color);
+    background-color: var(--lightgray-color);
     height: fit-content;
     margin:0 5px;
     padding: 5px;
@@ -184,5 +184,5 @@
 }
 
 .flex-container-row.filtered-prdcts{
-    background-color: var(--linen-color);
+    /* background-color: var(--linen-color); */
 }
