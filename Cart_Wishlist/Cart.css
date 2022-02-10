@@ -66,6 +66,33 @@
     font-weight: 800;
 }
 
+.left-container .separator{
+    margin:5px 0;
+}
+
+.left-container .prscptn-not-required-text{
+    font-weight: 500;
+    color: var(--darkgreen-color);
+}
+
+.left-container .prscptn-required-text{
+    font-weight: 500;
+    color: var(--darkred-color);
+}
+
+.left-container .suggested-pdcts-conatiner{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height:max-content;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+} 
+
+/* right container css */
+
 .right-container{
     width:23%;
     height:max-content;
@@ -125,66 +152,4 @@
     margin-right: 10px;
 
 }
-/* .cart-right-container{ */
 
-/*
-.left-container .card-main-horizontal .flex-content{
-    justify-content: flex-end;
-    gap: 15px;
-    padding-right: 5px;
-}
-
-.left-container .card-main-horizontal .flex-content .btn-add{
-    color:var(--darkgreen-color);
-    background-color: transparent;
-    border: 2px solid var(--darkgreen-color);
-}
-
-.left-container .card-main-horizontal .flex-content .btn-remove{
-    color:var(--darkred-color);
-    background-color: transparent;
-    border: 2px solid var(--darkred-color);
-}
-
-.left-container .card-main-horizontal .flex-content .qty-container{
-    background-color: var(--whitepeach-color);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap:5px;
-    align-items: center;
-}
-
-.left-container .card-main-horizontal .flex-content .qty-container .qty-text{
-    color:var(--primary-bg)
-}
-
-.left-container .card-main-horizontal .flex-content .qty-container .qty-btn{
-    border: 0;
-    outline: none;
-}*/
-
-.left-container .separator{
-    margin:5px 0;
-}
-
-.left-container .prscptn-not-required-text{
-    font-weight: 500;
-    color: var(--darkgreen-color);
-}
-
-.left-container .prscptn-required-text{
-    font-weight: 500;
-    color: var(--darkred-color);
-}
-
-.left-container .suggested-pdcts-conatiner{
-    
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height:max-content;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-} 
