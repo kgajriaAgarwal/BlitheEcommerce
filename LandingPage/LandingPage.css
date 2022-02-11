@@ -143,12 +143,12 @@
 
 /* <!-- Blithe-plus-banner --> */
 .Blithe-plus-banner{
-    margin:2rem;
+    /* margin:2rem; */
     /* height:10vh; */
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:5px;
+    padding: 1rem 1rem 0;
 }
 
 .dis-banner{
@@ -194,13 +194,14 @@
 }
 
 
-#Testimonials{
+/* #Testimonials{
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-}
+} */
 .flex-container-row.reviews-row{
     flex-wrap: nowrap;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
+    gap:0px !important;
 }
 .flex-container-row.reviews-row .profile{
 	padding: 2rem 1rem 1rem;
