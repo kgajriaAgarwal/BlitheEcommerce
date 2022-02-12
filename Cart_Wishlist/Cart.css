@@ -1,0 +1,155 @@
+@import '../Common.css';
+
+.cart-main-container{
+    background-color: var(--lightgray-color);
+    height:max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.cart-sub-container{
+    background-color: var(--white-color);
+}
+
+.left-container{
+    background-color: var(--whitepeach-color);
+    height:max-content;
+    float:left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+ .left-container .card-main-horizontal{
+    width: 50rem;
+    /* transform: scale(1.5); */
+    /* height: 250px;
+    min-height: 300px; */
+}
+
+.card-container-horizontal-img{
+    width:30%;
+}
+
+.left-container .card-main-horizontal .card-container-horizontal-img img{
+    padding:0 0 0 20px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.left-container .card-main-horizontal .card-img{
+    height: 10rem;
+    width:10rem;
+}
+
+.card-desc-horizontal{
+    align-self: flex-end;
+}
+
+.card-btn-container .qty-container{
+    display: flex;
+    gap:5px;
+}
+
+.card-btn-container .qty-container .qty-btn{
+    height: 30px;
+    width:30px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 2px solid var(--black-color);
+}
+
+.card-btn-container .qty-container span{
+    color: var(--primary-bg);
+    font-weight: 800;
+}
+
+.left-container .separator{
+    margin:5px 0;
+}
+
+.left-container .prscptn-not-required-text{
+    font-weight: 500;
+    color: var(--darkgreen-color);
+}
+
+.left-container .prscptn-required-text{
+    font-weight: 500;
+    color: var(--darkred-color);
+}
+
+.left-container .suggested-pdcts-conatiner{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height:max-content;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+} 
+
+/* right container css */
+
+.right-container{
+    width:23%;
+    height:max-content;
+    float:right;
+    margin-left: 20px;
+}
+
+.cart-right-container{
+    background-color: var(--whitepeach-color);
+    border: 2px solid var(--primary-bg);     
+    height:max-content;
+}
+
+.payment-details{
+    margin-top: 20px;
+}
+
+.payment-details table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+.payment-details th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.payment-details .lbl-total-savings{
+    color: var(--primary-bg);
+    text-align: center;
+    margin: 5px 10px;
+    padding: 5px 10px;
+}
+
+.payment-details .final-payment-amount{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    padding-top: 10px;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.cart-right-container .offer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: var(--white-color);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.cart-right-container .offer img{
+    height: 5rem;
+    width: 5rem;
+    margin-right: 10px;
+
+}
+

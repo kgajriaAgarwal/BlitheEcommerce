@@ -80,7 +80,7 @@
 .category{
     padding:0.2rem;
     border-radius: 50%;
-    background-color: var(--darkgray-color);
+    /* background-color: var(--darkgray-color); */
 }
 
 /* Steps container */
@@ -91,7 +91,7 @@
     justify-content: center;
     align-items: center;
     background-color: var(--white-color);
-    /* height:20vh; */
+    height:max-content;
     width:100%;
     gap:1rem;
 }
@@ -122,31 +122,33 @@
 
 .step-text{
     color: var(--primary-bg);
+    margin-top: 10px
 }
 
+.flex-container-row.featured-categories{
+    background-color: var(--whitepeach-color);
+    flex-wrap: wrap;
+}
+
+.featured-categories .card-container .card-img{
+    height: 15rem;
+}
 
 .flex-container-row.featured-prdcts{
     background-color: var(--linen-color);
+    flex-wrap: nowrap;
+    overflow: scroll;
+    scroll-behavior: smooth;
 }
-
-/* .flex-container-row{
-    justify-content: center;
-    align-items: center;
-}
-
-.featured-products{
-    padding:2rem;
-    margin: 2rem;
-} */
 
 /* <!-- Blithe-plus-banner --> */
 .Blithe-plus-banner{
-    margin:2rem;
+    /* margin:2rem; */
     /* height:10vh; */
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:5px;
+    padding: 1rem 1rem 0;
 }
 
 .dis-banner{
@@ -192,34 +194,46 @@
 }
 
 
-#Testimonials{
+/* #Testimonials{
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-}
+} */
 .flex-container-row.reviews-row{
     flex-wrap: nowrap;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
+    gap:0px !important;
 }
-.profile{
+.flex-container-row.reviews-row .profile{
 	padding: 2rem 1rem 1rem;
 	background-color: var(--lightgray-color);
+    text-align: center;
 }
-.user{
+.flex-container-row.reviews-row .user{
 	width:120px;
 	height: 120px;
 	border-radius: 50%;
 }
-.profile img{
-	top: -60px;
-	position: absolute;
-	left: calc(50% - 60px);
+.flex-container-row.reviews-row .profile img{
 	border:10px solid var(--white-color);
 }
-.profile .profile-name{
+
+.flex-container-row.reviews-row .profile .profile-name{
 	color: var(--primary-bg);
 }
-.profile:hover{
+.flex-container-row.reviews-row .profile:hover{
 	box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
 	cursor:pointer;
 	transition: 0.5s;
+}
+
+.flex-container-row.footer{
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    justify-content: space-evenly;
+}
+
+.flex-container-row.footer p{
+    color: var(--black-color);
+    margin: 5px 0;
+    font-weight: 500;
 }

@@ -154,7 +154,7 @@
 }
 
 .chip-word{
-    background-color: var(--secondary-color);
+    background-color: var(--lightgray-color);
     height: fit-content;
     margin:0 5px;
     padding: 5px;
