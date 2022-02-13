@@ -35,6 +35,16 @@
     margin: 10px 0;
 }
 
+.button{
+    border: 0;
+    outline: none;
+
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
 
 /* Covid Essentials
 Healthcare Devices
