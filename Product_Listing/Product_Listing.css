@@ -22,14 +22,9 @@
 }
 
 .right-container{
-    /* background-color: green; */
     height:max-content;
     float:right;
 }
-
-/* .left-container .categories-list{
-   
-} */
 
 .left-container .categories-list li{
    list-style: none;
@@ -172,10 +167,8 @@
 .chip-word .cross-btn{
     outline: none;
     border: 0;
-    /* background-color: lightgray; */
     margin-left: 5px;
     font-weight: 900;
-    /* border-radius: 5px; */
     height: 20px;
     width: 20px;
     border-radius: 50%;

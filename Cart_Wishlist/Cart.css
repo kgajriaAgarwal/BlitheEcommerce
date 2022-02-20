@@ -21,11 +21,8 @@
     text-align: center;
 }
 
- .left-container .card-main-horizontal{
+.left-container .card-main-horizontal{
     width: 50rem;
-    /* transform: scale(1.5); */
-    /* height: 250px;
-    min-height: 300px; */
 }
 
 .card-container-horizontal-img{
@@ -90,8 +87,6 @@
     justify-content: center;
     gap: 10px;
 } 
-
-/* right container css */
 
 .right-container{
     width:23%;

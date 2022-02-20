@@ -24,7 +24,6 @@ section .login-img-container img:before{
     left:0;
     width:100%;
     height:100%;
-    background: linear-gradient(225deg,#e91e63,#03a9f4);
     z-index: 1;
     mix-blend-mode: screen;
 }
@@ -54,7 +53,8 @@ section .login-content-container .login-form{
 .Blithe-logo{
     height:5rem;
     width:5rem;
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    margin-bottom: 10px;
 }
 
 section .login-content-container .login-form .heading{
@@ -105,6 +105,7 @@ section .login-content-container .login-form .remember{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding:10px;
 }
 
 .flex-content{
@@ -136,8 +137,6 @@ section .login-content-container .login-form .remember{
         opacity: 0.9;
         margin: 2rem;
     }
-
-
 }
 
 
