@@ -1,0 +1,192 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blithe</title>
+    <link rel="stylesheet" href="./AddressManagement.css">
+</head>
+<body>
+    <!-- header -->
+    <div class="header-container">
+        <header class="header">
+            <h2 class="header-title">
+                Blithe
+            </h2>
+            <div class="header-icon-container">
+                <div class="header-icon-sub-container">
+                    <a href="../Cart_Wishlist/Wishlist.html">
+                        <button class="header-btn">
+                            <img src="https://img.icons8.com/material-outlined/24/000000/like--v1.png"
+                                class="icon-btn-img" alt="icon-btn-img" />
+                        </button>
+                    </a>
+                    <button class="header-btn">
+                        <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
+                            class="icon-btn-img" alt="icon-btn-img" />
+                    </button>
+                    <div class="badge-container dropdown">
+                        <img class="avatar xs"
+                            src="https://image.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg"
+                            alt="user">
+                        <div class="dropdown-content">
+                            <a href="../Authentication/Login/Login.html">Login</a>
+                            <a href="../Authentication/SignUp/SignUp.html">Sign Up</a>
+                            <a href="../Authentication/SignUp/SignUp.html">User Profile</a>
+                            <a href="#">Log Out</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="vl"></div>
+                <div class="header-cart-container badge-container">
+                    <a href="../Cart_Wishlist/Cart.html">
+                       <div class="badge-container">
+                        <img class="sm" src="../Assets/Icons/icons8-shopping-bag-60.png" alt="icon" />
+                        <span class="avatar-badge avatar-badge-offline">5</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- maincontent -->
+    <div class="col-12 adrs-main-container">
+        <p class='heading-md'>Your Addresses</p> 
+        <div class="col-8 adrs-sub-container"> 
+            <div class="col-12 adrs-container">
+                <input type="radio"/>
+                <label>484, nehru nagar, near nehru stadium, Indore (MP)</label>
+                <div class="adrs-btn-container">
+                    <button class="btn btn-sm btn-primary clear-filter-btn">Edit</button>
+                    <button class="btn btn-sm btn-icon">
+                        <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/30/000000/external-delete-multimedia-kiranshastry-lineal-kiranshastry.png"/>
+                        </button>
+                </div>                
+            </div>
+
+            <div class="col-12 adrs-container">
+                <input type="radio"/>
+                <label>484, nehru nagar, near nehru stadium, Indore (MP)</label>
+                <div class="adrs-btn-container">
+                    <button class="btn btn-sm btn-primary clear-filter-btn">Edit</button>
+                    <button class="btn btn-sm btn-icon">
+                        <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/30/000000/external-delete-multimedia-kiranshastry-lineal-kiranshastry.png"/>
+                    </button>
+                </div>                
+            </div>
+
+            <div class="col-12 adrs-container">
+                <input type="radio"/>
+                <label>484, nehru nagar, near nehru stadium, Indore (MP)</label>
+                <div class="adrs-btn-container">
+                    <button class="btn btn-sm btn-primary clear-filter-btn">Edit</button>
+                    <button class="btn btn-sm btn-icon">
+                        <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/30/000000/external-delete-multimedia-kiranshastry-lineal-kiranshastry.png"/>
+                        </button>
+                </div>                
+            </div>
+
+            <div class="col-12 new-adrs-container">
+                <p class="text=lg">Add New Address</p>
+                <form>
+                    <div class="flex-row">
+                        <div class="col_6 float-container">
+                            <label for="floatField" class="input-lbl">First Name</label>
+                            <input type="text">
+                        </div>
+                        <div class="col_6 float-container">
+                            <label for="floatField" class="input-lbl">Last Name</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class= "flex-row">
+                        <div class="col_12 float-container">
+                            <label for="floatField" class="input-lbl">Street Address</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="flex-row">
+                        <div class="col_4 float-container">
+                            <label for="floatField" class="input-lbl">Apt Number</label>
+                            <input type="text">
+                        </div>
+                        <div class="col_4 float-container">
+                            <label for="floatField" class="input-lbl">State</label>
+                            <input type="text">
+                        </div>
+                        <div class="col_4 float-container">
+                            <label for="floatField" class="input-lbl">Zip</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="adrs-btn-container">
+                        <button class="btn btn-sm btn-primary clear-filter-btn">Cancel</button>
+                        <button class="btn btn-sm btn-icon">
+                            <img src="https://img.icons8.com/ios-filled/30/000000/order-delivered.png"/>
+                            Use this address
+                        </button>
+                    </div> 
+
+                </form>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+    <!---footer- -->
+    <section id="footer">
+        <div class="col-12 flex-container-row footer">
+            <div class="col-3">
+                <p class="text-lg">Featured Categories</p>
+                <ul>
+                    <li>Covid Essentials</li>
+                    <li>Healthcare Devices</li>
+                    <li>Health Food and Drinks</li>
+                    <li>Personal Care</li>
+                    <li>Ayurvedic Care</li>
+                    <li>Mother and Baby Care</li>
+                    <li>Accessories And Wearables</li>
+                    <li>Skin Care</li>                       
+                </ul>
+            </div>
+            <div class="col-3">
+                <p class="text-lg">Featured Categories</p>
+                <ul>
+                    <li>Diabetic Care</li>
+                    <li>Health Condition</li>
+                    <li>Sexual Wellness</li>
+                    <li>Home Care</li>
+                    <li>Fitness & Supplements</li>
+                    <li>Elderly Care</li>
+                    <li>Surgicals and Dressings</li>
+                    <li>Pet Care</li>                 
+                </ul>
+            </div>
+            <div class="col-3">
+                <p class="text-lg">Company</p>
+                <ul>
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>Blog</li>
+                    <li>Partner with Blithe</li>
+                    <li>Sell at Blithe</li>
+                </ul>
+                <p class="text-lg">Connect with us at:</p>
+                <ul>
+                    <li>Linked in</li>
+                    <li>facebook</li>
+                    <li>instagram</li>
+                    <li>twitter</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container text-center">
+            <p class='text-sm'>Made by KARISHMA GAJRIA AGARWAL</p>                
+        </div>
+    </section>
+    
+</body>
+</html>
