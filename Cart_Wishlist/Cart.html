@@ -25,18 +25,25 @@
                         <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
                             class="icon-btn-img" alt="icon-btn-img" />
                     </button>
-                    <div class="badge-container">
+                    <div class="badge-container dropdown">
                         <img class="avatar xs"
                             src="https://image.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg"
                             alt="user">
+                        <div class="dropdown-content">
+                            <a href="../Authentication/Login/Login.html">Login</a>
+                            <a href="../Authentication/SignUp/SignUp.html">Sign Up</a>
+                            <a href="../UserProfile/UserProfile.html">User Profile</a>
+                            <a href="../Authentication/ForgotPassword/ForgotPassword.html">Forgot Password</a>
+                            <a href="#">Log Out</a>
+                        </div>
                     </div>
                 </div>
                 <div class="vl"></div>
                 <div class="header-cart-container badge-container">
                     <a href="../Cart_Wishlist/Cart.html">
-                        <div class="badge-container">
-                         <img class="sm" src="../Assets/Icons/icons8-shopping-bag-60.png" alt="icon" />
-                         <span class="avatar-badge avatar-badge-offline">5</span>
+                       <div class="badge-container">
+                        <img class="sm" src="../Assets/Icons/icons8-shopping-bag-60.png" alt="icon" />
+                        <span class="avatar-badge avatar-badge-offline">5</span>
                         </div>
                     </a>
                 </div>
@@ -47,7 +54,7 @@
     <!-- <img src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1643642593_Cart_Bannernms1.jpg"/> -->
     <div class="col-12 cart-main-container">
         <div class="col-10 cart-sub-container">
-            <p class='heading-md'>YOUR CART (4 items)</p>
+            <p class='heading-md'>Your cart (4 items)</p>
             <!-- LEFT CONTAINER - PRODUCTS IN THE CART -->
             <div class="col-9 left-container">
                 <img src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1643642689_Cart_Bannersip.jpg"/>
@@ -409,18 +416,20 @@
             <!-- RIGHT CONATINER - SUBTOTAL -->
             <div class="right-container">
                 <div class="col-12 cart-right-container">
-                    <button class="btn btn-sm btn-icon btn-primary">
+                    <a href="../AddressManagement/AddressManagement.html" class="btn btn-sm btn-icon btn-primary col_12">
                         <img src="https://cdn.pharmeasy.in/cms/delivery_image.png" class="icon-btn-img" alt="icon-btn-img" />
-                        <span class="icon-btn-span">Add Delivery Address</span>
-                    </button>
-                    <button class="btn btn-sm btn-icon btn-primary">
+                        <span class="icon-btn-span">Add delivery address</span>
+                    </a>
+                    <a href="javascript:void(0)" class="btn btn-sm btn-icon btn-primary col_12">
                         <img src="https://res.cloudinary.com/du8msdgbj/image/upload/v1607414999/marketing/cvtnx1zh5we6atn3m7i0.svg" class="icon-btn-img" alt="icon-btn-img" />
                         <span class="icon-btn-span">Apply coupons / View offers</span>
-                    </button>
-                    <button class="btn btn-sm btn-primary">Free delivery with cart value above ₹500</button>
+                    </a>
+                    <a href="javascript:void(0)" class="btn btn-sm btn-icon btn-primary col_12">
+                        Free delivery with cart value above ₹500
+                    </a>
                 </div>
                 <div class="col-12 cart-right-container payment-details">
-                    <p class='text-sm'>PAYMENT DETAILS</p>
+                    <p class='text-sm'>Payment details</p>
                     <!-- SEPERATOR -->
                     <hr class="solid separator"/>
                     <table>
@@ -429,21 +438,21 @@
                           <td>₹525.00</td>
                         </tr>
                         <tr>
-                          <td>Blithe Discount</td>
+                          <td>Blithe discount</td>
                           <td>₹78.75</td>
                         </tr>
                         <tr>
-                          <td>Total Amount *</td>
+                          <td>Total amount *</td>
                           <td>₹446.25</td>
                         </tr>
                     </table>                      
-                    <label class="text-sm lbl-total-savings">TOTAL SAVINGS ₹78.75</label>
+                    <label class="text-sm lbl-total-savings">Total savings ₹78.75</label>
                     <div class="final-payment-amount">
                         <div>
-                            <label>TOTAL AMOUNT</label>
+                            <label>Total amount</label>
                             <p class="heading-md">₹446.25</p>
                         </div>
-                        <button class="btn btn-sm btn-primary">PROCEED</button>
+                        <button class="btn btn-sm btn-primary">Proceed</button>
                     </div>
                 </div>
             </div>

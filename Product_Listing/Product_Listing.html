@@ -8,7 +8,8 @@
 </head>
 <body >
     <!-- header -->
-    <div class="header-container">
+      <!-- header -->
+      <div class="header-container">
         <header class="header">
             <h2 class="header-title">
                 Blithe
@@ -25,18 +26,25 @@
                         <img src="https://img.icons8.com/material-outlined/24/000000/share.png"
                             class="icon-btn-img" alt="icon-btn-img" />
                     </button>
-                    <div class="badge-container">
+                    <div class="badge-container dropdown">
                         <img class="avatar xs"
                             src="https://image.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg"
                             alt="user">
+                        <div class="dropdown-content">
+                            <a href="../Authentication/Login/Login.html">Login</a>
+                            <a href="../Authentication/SignUp/SignUp.html">Sign Up</a>
+                            <a href="../UserProfile/UserProfile.html">User Profile</a>
+                            <a href="../Authentication/ForgotPassword/ForgotPassword.html">Forgot Password</a>
+                            <a href="#">Log Out</a>
+                        </div>
                     </div>
                 </div>
                 <div class="vl"></div>
                 <div class="header-cart-container badge-container">
                     <a href="../Cart_Wishlist/Cart.html">
-                        <div class="badge-container">
-                         <img class="sm" src="../Assets/Icons/icons8-shopping-bag-60.png" alt="icon" />
-                         <span class="avatar-badge avatar-badge-offline">5</span>
+                       <div class="badge-container">
+                        <img class="sm" src="../Assets/Icons/icons8-shopping-bag-60.png" alt="icon" />
+                        <span class="avatar-badge avatar-badge-offline">5</span>
                         </div>
                     </a>
                 </div>
@@ -51,7 +59,7 @@
             <div class="col-3 left-container">
 
                 <!-- CATEGORIES -->
-                <p class="heading-md heading">CATEGORIES</p>
+                <p class="heading-md heading">Categories</p>
                 <div class="col-12 categories-list">
                     <ul>
                     <li>Covid Essentials<span class="down-arrow">&#9660</span></li>
@@ -73,13 +81,13 @@
                     </ul>
                 </div>
 
-                <p class="heading-md heading">FILTERS</p>
+                <p class="heading-md heading">Filters</p>
                 <!-- SEPERATOR -->
                 <hr class="solid separator"/>
                 
 
                 <!-- FILTERS -->
-                <p class="text-lg heading">BRANDS</p>
+                <p class="text-lg heading">Brands</p>
                 <div class="col-12 filters-container">
                     <div id="floatContainer" class="float-container">
                         <label for="floatField" class="input-lbl">Brand Name</label>
@@ -148,10 +156,10 @@
                  <hr class="solid separator"/>
 
                 <!-- PRODUCT TAGS -->
-                <p class="text-lg heading">PRODUCT TAGS</p>
+                <p class="text-lg heading">Product tags</p>
                 <div class="col-12 filters-container">                    
                     <div class="float-container">
-                        <label for="floatField" class="input-lbl">Product Tag</label>
+                        <label for="floatField" class="input-lbl">Product tag</label>
                         <input type="text" placeholder="Serach by Product tag">
                     </div>
                     <div class="col-12 prdct-tag-container">
@@ -222,7 +230,7 @@
                 <hr class="solid separator"/>
 
                 <!-- PRICE FILTER -->
-                <p class="text-lg heading">PRICE</p>
+                <p class="text-lg heading">Price</p>
                 <div class="col-12 filters-container">
                     <div class="price-filter">
                         <input class="radio-btn" type="radio"/>
@@ -238,7 +246,7 @@
                 <hr class="solid separator"/>
 
                 <!-- RATINGS FILTER -->
-                <p class="text-lg heading">RATINGS</p>
+                <p class="text-lg heading">Ratings</p>
                 <div class="col-12 filters-container">
                     <div class="ratings-filter">
                         <input class="radio-btn" type="radio"/>
@@ -268,7 +276,7 @@
             <div class="col-9 right-container">
                 <div class='right-container-header'>
                     <p class="text-sm breadcrumb">HomeOTC > CategoriesDiabetesDevicesBlood > Glucose > Monitors</p>
-                    <button class="btn btn-sm btn-primary clear-filter-btn">CLEAR ALL FILTERS</button>
+                    <button class="btn btn-sm btn-primary clear-filter-btn">Clear all filters</button>
                 </div>
                 <!-- FILTER -CHIPS -->
                 <div class="col-10 chips-container">

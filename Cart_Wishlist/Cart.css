@@ -1,5 +1,39 @@
 @import '../Common.css';
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 15rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding-top: 1rem;
+    background-color: var(--white-color);
+  }
+  
+  .dropdown-content a {
+    color: var(--black-color);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+  }
+  
+.dropdown-content a:hover {background-color: var(--shadow-color);}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content:hover{
+    display: block;
+}
+
+
 .cart-main-container{
     background-color: var(--lightgray-color);
     height:max-content;
@@ -97,8 +131,12 @@
 
 .cart-right-container{
     background-color: var(--whitepeach-color);
-    border: 2px solid var(--primary-bg);     
-    height:max-content;
+    border: 2px solid var(--primary-bg);
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .payment-details{
