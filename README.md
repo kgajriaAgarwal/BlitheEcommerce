@@ -23,4 +23,7 @@ Blithe Ecommerce  is an online pharma store.
 - html
 - css
 
+### Preview:
+[click here to view the site preview](https://www.linkedin.com/posts/karishma-gajria-768107138_created-ecommerce-layout-using-html-css-activity-6901741709873479680-t_se/)
+
 Connect With me at [LinkedIn](https://www.linkedin.com/in/karishma-gajria-768107138/?originalSubdomain=in) | [Github](https://github.com/kgajriaAgarwal)
